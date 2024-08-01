@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-01T18:55:05 IST" name="Suite" finished-at="2024-08-01T18:57:22 IST" duration-ms="137451">
+    <groups>
+    </groups>
+    <test started-at="2024-08-01T18:55:05 IST" name="Test" finished-at="2024-08-01T18:57:22 IST" duration-ms="137451">
+      <class name="SmokeTest.LoginTests">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:55:05 IST" name="beforeClass" finished-at="2024-08-01T18:55:05 IST" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.hudl.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:55:05 IST" name="beforeMethod" finished-at="2024-08-01T18:55:10 IST" duration-ms="4865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SmokeTest.LoginTests.LoginHudlValidUserCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginHudlValidUserCredentials(java.lang.String,java.lang.String)[pri:1, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:55:10 IST" name="LoginHudlValidUserCredentials" description="This test case verifies the login functionality with valid credentials." data-provider="LoginWithValidUserCredentials" finished-at="2024-08-01T18:55:36 IST" duration-ms="26492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vivekgpv92@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Preeti@2024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginHudlValidUserCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:55:36 IST" name="afterMethod" finished-at="2024-08-01T18:55:37 IST" duration-ms="775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginHudlValidUserCredentials status=SUCCESS method=LoginTests.LoginHudlValidUserCredentials(java.lang.String,java.lang.String)[pri:1, instance:SmokeTest.LoginTests@6e9a5ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:55:37 IST" name="beforeMethod" finished-at="2024-08-01T18:55:41 IST" duration-ms="3471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SmokeTest.LoginTests.LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)[pri:2, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:55:41 IST" name="LoginHudlInValidUserCredentials" description="This test case verifies the login functionality with Invalid credentials." data-provider="LoginWithInValidUserCredentials" finished-at="2024-08-01T18:55:56 IST" duration-ms="15075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vivekgpv92@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginHudlInValidUserCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:55:56 IST" name="afterMethod" finished-at="2024-08-01T18:55:56 IST" duration-ms="581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginHudlInValidUserCredentials status=SUCCESS method=LoginTests.LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)[pri:2, instance:SmokeTest.LoginTests@6e9a5ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:55:56 IST" name="beforeMethod" finished-at="2024-08-01T18:56:00 IST" duration-ms="3533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SmokeTest.LoginTests.LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)[pri:2, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:56:00 IST" name="LoginHudlInValidUserCredentials" description="This test case verifies the login functionality with Invalid credentials." data-provider="LoginWithInValidUserCredentials" finished-at="2024-08-01T18:56:24 IST" duration-ms="23907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vivekgpv@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Preeti@2024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginHudlInValidUserCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:56:24 IST" name="afterMethod" finished-at="2024-08-01T18:56:24 IST" duration-ms="576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginHudlInValidUserCredentials status=SUCCESS method=LoginTests.LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)[pri:2, instance:SmokeTest.LoginTests@6e9a5ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:56:24 IST" name="beforeMethod" finished-at="2024-08-01T18:56:28 IST" duration-ms="3643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SmokeTest.LoginTests.LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)[pri:2, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:56:28 IST" name="LoginHudlInValidUserCredentials" description="This test case verifies the login functionality with Invalid credentials." data-provider="LoginWithInValidUserCredentials" finished-at="2024-08-01T18:56:47 IST" duration-ms="18531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vivekgpv92@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[***********]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginHudlInValidUserCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:56:47 IST" name="afterMethod" finished-at="2024-08-01T18:56:47 IST" duration-ms="569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginHudlInValidUserCredentials status=SUCCESS method=LoginTests.LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)[pri:2, instance:SmokeTest.LoginTests@6e9a5ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:56:47 IST" name="beforeMethod" finished-at="2024-08-01T18:56:51 IST" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SmokeTest.LoginTests.LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)[pri:2, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:56:51 IST" name="LoginHudlInValidUserCredentials" description="This test case verifies the login functionality with Invalid credentials." data-provider="LoginWithInValidUserCredentials" finished-at="2024-08-01T18:57:06 IST" duration-ms="15830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Preeti@2024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vivekgpv92@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginHudlInValidUserCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:57:06 IST" name="afterMethod" finished-at="2024-08-01T18:57:07 IST" duration-ms="552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginHudlInValidUserCredentials status=SUCCESS method=LoginTests.LoginHudlInValidUserCredentials(java.lang.String,java.lang.String)[pri:2, instance:SmokeTest.LoginTests@6e9a5ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:57:07 IST" name="beforeMethod" finished-at="2024-08-01T18:57:10 IST" duration-ms="3481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SmokeTest.LoginTests.LoginHudlWithoutUserCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginHudlWithoutUserCredentials()[pri:3, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:57:10 IST" name="LoginHudlWithoutUserCredentials" description="This test case verifies the login functionality with no user credentials is provided" finished-at="2024-08-01T18:57:21 IST" duration-ms="10768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginHudlWithoutUserCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:57:21 IST" name="afterMethod" finished-at="2024-08-01T18:57:22 IST" duration-ms="584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginHudlWithoutUserCredentials status=SUCCESS method=LoginTests.LoginHudlWithoutUserCredentials()[pri:3, instance:SmokeTest.LoginTests@6e9a5ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:SmokeTest.LoginTests@6e9a5ed8]" started-at="2024-08-01T18:57:22 IST" name="afterClass" finished-at="2024-08-01T18:57:22 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- SmokeTest.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
