@@ -3,6 +3,7 @@ package SmokeTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.hudl.fan.FanHome;
 import com.hudl.home.HudlGenericWebsite;
 import com.hudl.home.HudlHome;
 import com.hudl.home.Identity;
@@ -26,8 +27,8 @@ public class LoginTests extends TestNgBaseClass
 	Assert.assertTrue(IdentityPage.VerifyHudlIdentityPageIsDisplayed());
 	Assert.assertTrue(IdentityPage.SubmitEmailAndPassword(username, password));
 	
-	HudlHome HudlHomePage = new HudlHome(Driver,reporter,commonFunctions);
-	HudlHomePage.VerifyHudlHomePageIsDisplayed();
+	FanHome HudlFanPage = new FanHome(Driver,reporter,commonFunctions);
+	HudlFanPage.VerifyHudlFanPageIsDisplayed();
 	}
 	
 	@Test
